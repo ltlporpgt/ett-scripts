@@ -18,6 +18,5 @@ while True:
         pass
     else:
       print(f"[!] Page /{page} has updated!")
-      print(get_edits_string(known_pages[page], page_content))
       known_pages[page] = page_content
   time.sleep(5)
